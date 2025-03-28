@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="GitHubAPITestSuite">
+    <test name="GitHubAPITests">
+        <classes>
+            <class name="com.tests.github.GitHubApiTest"/>
+        </classes>
+    </test>
+</suite>

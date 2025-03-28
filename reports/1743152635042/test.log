@@ -1,0 +1,40 @@
+[2025-03-28 09:03:55] [1] [INFO] 
+=========== WebDriver configuration ===========
+url=https://www.amazon.com/
+browser=chrome
+selenium_url=http://192.168.56.1:4444
+-------------- Driver capabilities ------------
+===============================================
+
+[2025-03-28 09:03:55] [1] [WARN] Reporting disabled: using no op test run registrar
+[2025-03-28 09:03:57] [1] [INFO] [TestNG] Running:
+  C:\Users\Błażej\AppData\Local\JetBrains\IntelliJIdea2024.3\temp-testng-customsuite.xml
+
+[2025-03-28 09:03:57] [1] [INFO] Set thread-count=1
+[2025-03-28 09:03:57] [1] [INFO] Set data-provider-thread-count=1
+[2025-03-28 09:03:57] [1] [INFO] CARINA_CORE_VERSION: 1.3.0
+[2025-03-28 09:03:57] [1] [INFO] Before each test method
+[2025-03-28 09:03:59] [1] [INFO] After each test method
+[2025-03-28 09:03:59] [1] [INFO] Before each test method
+[2025-03-28 09:04:03] [1] [INFO] After each test method
+[2025-03-28 09:04:03] [1] [INFO] Before each test method
+[2025-03-28 09:04:04] [1] [INFO] After each test method
+[2025-03-28 09:04:04] [1] [INFO] Before each test method
+[2025-03-28 09:04:04] [1] [INFO] After each test method
+[2025-03-28 09:04:04] [1] [INFO] Before each test method
+[2025-03-28 09:04:04] [1] [INFO] After each test method
+[2025-03-28 09:04:04] [1] [INFO] Before each test method
+[2025-03-28 09:04:04] [1] [INFO] After each test method
+[2025-03-28 09:04:04] [1] [INFO] Before each test method
+[2025-03-28 09:04:05] [1] [INFO] After each test method
+[2025-03-28 09:04:05] [1] [INFO] Before each test method
+[2025-03-28 09:04:05] [1] [INFO] After each test method
+[2025-03-28 09:04:05] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2025-03-28 09:04:05] [1] [INFO] RESULT #1: TEST [TestV2 - testCreateUserWithFreemarker] PASS [log=file://C:\Users\Błażej\OneDrive\Pulpit\JavaGit\TestV2\reports\1743152635042/a174e2c2-3a62-4466-9f31-ac5b7b2897f9/test.log]
+[2025-03-28 09:04:05] [1] [INFO] RESULT #2: TEST [TestV2 - testGetRepositoryCommitsWithRetry] PASS [log=file://C:\Users\Błażej\OneDrive\Pulpit\JavaGit\TestV2\reports\1743152635042/919d23d6-9e83-46b2-b706-56edd7018cf5/test.log]
+[2025-03-28 09:04:05] [1] [INFO] RESULT #3: TEST [TestV2 - testGetRepositoryDetails] FAIL [log=file://C:\Users\Błażej\OneDrive\Pulpit\JavaGit\TestV2\reports\1743152635042/2a162ddc-a987-459c-a69f-519c876b9004/test.log]
+[2025-03-28 09:04:05] [1] [INFO] RESULT #4: TEST [TestV2 - testGetUserByUsername] PASS [log=file://C:\Users\Błażej\OneDrive\Pulpit\JavaGit\TestV2\reports\1743152635042/4858e89b-9aaa-42d6-b118-56ee9c1d24fc/test.log]
+[2025-03-28 09:04:05] [1] [INFO] RESULT #5: TEST [TestV2 - testGetUsersWithDataProvider [L01]] PASS [log=file://C:\Users\Błażej\OneDrive\Pulpit\JavaGit\TestV2\reports\1743152635042/ec34c5b6-9037-40be-8d23-1ff989b7f8ba/test.log]
+[2025-03-28 09:04:05] [1] [INFO] RESULT #6: TEST [TestV2 - testGetUsersWithDataProvider [L02]] PASS [log=file://C:\Users\Błażej\OneDrive\Pulpit\JavaGit\TestV2\reports\1743152635042/3d570270-96bc-4b69-be75-ec14db6b1eaf/test.log]
+[2025-03-28 09:04:05] [1] [INFO] RESULT #7: TEST [TestV2 - testListRepositoriesForUser] PASS [log=file://C:\Users\Błażej\OneDrive\Pulpit\JavaGit\TestV2\reports\1743152635042/f7f8299a-986b-4291-a269-bfa839ff3733/test.log]
+[2025-03-28 09:04:05] [1] [INFO] RESULT #8: TEST [TestV2 - testSearchRepositories] PASS [log=file://C:\Users\Błażej\OneDrive\Pulpit\JavaGit\TestV2\reports\1743152635042/d095468c-7084-4977-bb84-79cec9cc13a1/test.log]

@@ -1,0 +1,80 @@
+[2025-03-28 08:43:07] [1] [WARN] Reporting disabled: using no op test run registrar
+[2025-03-28 08:43:07] [1] [INFO] TEST [TestV2 - testCreateUserWithFreemarker] STARTED at [09:43:07 2025-03-28]
+[2025-03-28 08:43:07] [1] [INFO] Testing user creation with Freemarker
+[2025-03-28 08:43:08] [1] [INFO] Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 201 Created
+Date: Fri, 28 Mar 2025 08:43:08 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 14
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1743151388&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=NKqnT2MYRsjggKLHkMrZl0wNnno%2F89%2BSfH7YSNvliH8%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1743151388&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=NKqnT2MYRsjggKLHkMrZl0wNnno%2F89%2BSfH7YSNvliH8%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1743151444
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: https://jsonplaceholder.typicode.com/users/11
+X-Content-Type-Options: nosniff
+Etag: W/"e-HA6WWAG/c4REvZ4q9d0N16BTb2A"
+Via: 1.1 vegur
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: 9275d6930dda70c3-WAW
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=11746&min_rtt=10397&rtt_var=4862&sent=7&recv=7&lost=0&retrans=0&sent_bytes=3112&recv_bytes=845&delivery_rate=421275&cwnd=252&unsent_bytes=0&cid=b3bff0f2d488681b&ts=218&x=0"
+
+{
+    "id": 11
+}
+
+[2025-03-28 08:43:09] [1] [ERROR] TEST [TestV2 - testCreateUserWithFreemarker] FAILED at [09:43:09 2025-03-28] - expected [John] but found [null]
+
+org.testng.Assert.fail(Assert.java:111)
+org.testng.Assert.failNotEquals(Assert.java:1578)
+org.testng.Assert.assertEqualsImpl(Assert.java:150)
+org.testng.Assert.assertEquals(Assert.java:132)
+org.testng.Assert.assertEquals(Assert.java:656)
+org.testng.Assert.assertEquals(Assert.java:666)
+com.example.com.tests.github.GitHubApiTest.testCreateUserWithFreemarker(GitHubApiTest.java:118)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+java.base/java.lang.reflect.Method.invoke(Method.java:580)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+org.testng.TestRunner.privateRun(TestRunner.java:739)
+org.testng.TestRunner.run(TestRunner.java:614)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+org.testng.SuiteRunner.run(SuiteRunner.java:312)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+org.testng.TestNG.runSuites(TestNG.java:1112)
+org.testng.TestNG.run(TestNG.java:1079)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)

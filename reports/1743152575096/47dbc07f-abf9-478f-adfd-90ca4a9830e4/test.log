@@ -1,0 +1,1102 @@
+[2025-03-28 09:02:59] [1] [WARN] Reporting disabled: using no op test run registrar
+[2025-03-28 09:02:59] [1] [INFO] TEST [TestV2 - testGetRepositoryCommitsWithRetry] STARTED at [10:02:59 2025-03-28]
+[2025-03-28 09:02:59] [1] [INFO] Testing retrieval of repository commits with retry
+[2025-03-28 09:02:59] [1] [INFO] Request method:	GET
+Request URI:	https://api.github.com/repos/octocat/boysenberry-repo-1/commits
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 28 Mar 2025 09:02:59 GMT
+Content-Type: application/json; charset=utf-8
+Cache-Control: public, max-age=60, s-maxage=60
+Vary: Accept,Accept-Encoding, Accept, X-Requested-With
+ETag: W/"5a43322ef8876c3eeb0fb0f17066107e2879433b5781177a4a345ddea7affe96"
+Last-Modified: Mon, 12 Dec 2016 23:11:00 GMT
+X-GitHub-Media-Type: github.v3; format=json
+x-github-api-version-selected: 2022-11-28
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Content-Encoding: gzip
+Server: github.com
+Accept-Ranges: bytes
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 47
+X-RateLimit-Reset: 1743154348
+X-RateLimit-Resource: core
+X-RateLimit-Used: 13
+Transfer-Encoding: chunked
+X-GitHub-Request-Id: 1783:3FDB7C:3E8A4D8:408D9D2:67E665C3
+
+[
+    {
+        "sha": "d09e445076bbcd163fc9abfbe6d2fce09a611281",
+        "node_id": "MDY6Q29tbWl0MTMyOTM1NjQ4OmQwOWU0NDUwNzZiYmNkMTYzZmM5YWJmYmU2ZDJmY2UwOWE2MTEyODE=",
+        "commit": {
+            "author": {
+                "name": "Jessica Canepa",
+                "email": "jmarlena@github.com",
+                "date": "2016-12-12T23:11:00Z"
+            },
+            "committer": {
+                "name": "Jessica Canepa",
+                "email": "jmarlena@github.com",
+                "date": "2016-12-12T23:11:00Z"
+            },
+            "message": "Set theme: \"jekyll-theme-minimal\" in _config.yml.",
+            "tree": {
+                "sha": "ee2aaf688abf707aa38318b7408ba23001547b10",
+                "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/git/trees/ee2aaf688abf707aa38318b7408ba23001547b10"
+            },
+            "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/git/commits/d09e445076bbcd163fc9abfbe6d2fce09a611281",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/commits/d09e445076bbcd163fc9abfbe6d2fce09a611281",
+        "html_url": "https://github.com/octocat/boysenberry-repo-1/commit/d09e445076bbcd163fc9abfbe6d2fce09a611281",
+        "comments_url": "https://api.github.com/repos/octocat/boysenberry-repo-1/commits/d09e445076bbcd163fc9abfbe6d2fce09a611281/comments",
+        "author": {
+            "login": "jmarlena",
+            "id": 6732600,
+            "node_id": "MDQ6VXNlcjY3MzI2MDA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6732600?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jmarlena",
+            "html_url": "https://github.com/jmarlena",
+            "followers_url": "https://api.github.com/users/jmarlena/followers",
+            "following_url": "https://api.github.com/users/jmarlena/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jmarlena/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jmarlena/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jmarlena/subscriptions",
+            "organizations_url": "https://api.github.com/users/jmarlena/orgs",
+            "repos_url": "https://api.github.com/users/jmarlena/repos",
+            "events_url": "https://api.github.com/users/jmarlena/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jmarlena/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "jmarlena",
+            "id": 6732600,
+            "node_id": "MDQ6VXNlcjY3MzI2MDA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6732600?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jmarlena",
+            "html_url": "https://github.com/jmarlena",
+            "followers_url": "https://api.github.com/users/jmarlena/followers",
+            "following_url": "https://api.github.com/users/jmarlena/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jmarlena/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jmarlena/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jmarlena/subscriptions",
+            "organizations_url": "https://api.github.com/users/jmarlena/orgs",
+            "repos_url": "https://api.github.com/users/jmarlena/repos",
+            "events_url": "https://api.github.com/users/jmarlena/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jmarlena/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "642f3f60f5989713b472447912fcfdcb74b0bd1a",
+                "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/commits/642f3f60f5989713b472447912fcfdcb74b0bd1a",
+                "html_url": "https://github.com/octocat/boysenberry-repo-1/commit/642f3f60f5989713b472447912fcfdcb74b0bd1a"
+            }
+        ]
+    },
+    {
+        "sha": "642f3f60f5989713b472447912fcfdcb74b0bd1a",
+        "node_id": "MDY6Q29tbWl0MTMyOTM1NjQ4OjY0MmYzZjYwZjU5ODk3MTNiNDcyNDQ3OTEyZmNmZGNiNzRiMGJkMWE=",
+        "commit": {
+            "author": {
+                "name": "Jessica Canepa",
+                "email": "jmarlena@github.com",
+                "date": "2016-12-12T23:06:48Z"
+            },
+            "committer": {
+                "name": "Jessica Canepa",
+                "email": "jmarlena@github.com",
+                "date": "2016-12-12T23:06:48Z"
+            },
+            "message": "Create Jekyll site.",
+            "tree": {
+                "sha": "ee2aaf688abf707aa38318b7408ba23001547b10",
+                "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/git/trees/ee2aaf688abf707aa38318b7408ba23001547b10"
+            },
+            "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/git/commits/642f3f60f5989713b472447912fcfdcb74b0bd1a",
+            "comment_count": 2,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/commits/642f3f60f5989713b472447912fcfdcb74b0bd1a",
+        "html_url": "https://github.com/octocat/boysenberry-repo-1/commit/642f3f60f5989713b472447912fcfdcb74b0bd1a",
+        "comments_url": "https://api.github.com/repos/octocat/boysenberry-repo-1/commits/642f3f60f5989713b472447912fcfdcb74b0bd1a/comments",
+        "author": {
+            "login": "jmarlena",
+            "id": 6732600,
+            "node_id": "MDQ6VXNlcjY3MzI2MDA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6732600?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jmarlena",
+            "html_url": "https://github.com/jmarlena",
+            "followers_url": "https://api.github.com/users/jmarlena/followers",
+            "following_url": "https://api.github.com/users/jmarlena/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jmarlena/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jmarlena/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jmarlena/subscriptions",
+            "organizations_url": "https://api.github.com/users/jmarlena/orgs",
+            "repos_url": "https://api.github.com/users/jmarlena/repos",
+            "events_url": "https://api.github.com/users/jmarlena/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jmarlena/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "jmarlena",
+            "id": 6732600,
+            "node_id": "MDQ6VXNlcjY3MzI2MDA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6732600?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jmarlena",
+            "html_url": "https://github.com/jmarlena",
+            "followers_url": "https://api.github.com/users/jmarlena/followers",
+            "following_url": "https://api.github.com/users/jmarlena/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jmarlena/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jmarlena/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jmarlena/subscriptions",
+            "organizations_url": "https://api.github.com/users/jmarlena/orgs",
+            "repos_url": "https://api.github.com/users/jmarlena/repos",
+            "events_url": "https://api.github.com/users/jmarlena/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jmarlena/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "cc319a502ddb791661067a22fd47ada75073865d",
+                "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/commits/cc319a502ddb791661067a22fd47ada75073865d",
+                "html_url": "https://github.com/octocat/boysenberry-repo-1/commit/cc319a502ddb791661067a22fd47ada75073865d"
+            }
+        ]
+    },
+    {
+        "sha": "cc319a502ddb791661067a22fd47ada75073865d",
+        "node_id": "MDY6Q29tbWl0MTMyOTM1NjQ4OmNjMzE5YTUwMmRkYjc5MTY2MTA2N2EyMmZkNDdhZGE3NTA3Mzg2NWQ=",
+        "commit": {
+            "author": {
+                "name": "jmarlena",
+                "email": "jmarlena@github.com",
+                "date": "2016-08-17T04:52:16Z"
+            },
+            "committer": {
+                "name": "jmarlena",
+                "email": "jmarlena@github.com",
+                "date": "2016-08-17T04:52:16Z"
+            },
+            "message": "add new version of readme",
+            "tree": {
+                "sha": "f1c819a408383c053566219db2d167456b95d6bf",
+                "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/git/trees/f1c819a408383c053566219db2d167456b95d6bf"
+            },
+            "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/git/commits/cc319a502ddb791661067a22fd47ada75073865d",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/commits/cc319a502ddb791661067a22fd47ada75073865d",
+        "html_url": "https://github.com/octocat/boysenberry-repo-1/commit/cc319a502ddb791661067a22fd47ada75073865d",
+        "comments_url": "https://api.github.com/repos/octocat/boysenberry-repo-1/commits/cc319a502ddb791661067a22fd47ada75073865d/comments",
+        "author": {
+            "login": "jmarlena",
+            "id": 6732600,
+            "node_id": "MDQ6VXNlcjY3MzI2MDA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6732600?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jmarlena",
+            "html_url": "https://github.com/jmarlena",
+            "followers_url": "https://api.github.com/users/jmarlena/followers",
+            "following_url": "https://api.github.com/users/jmarlena/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jmarlena/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jmarlena/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jmarlena/subscriptions",
+            "organizations_url": "https://api.github.com/users/jmarlena/orgs",
+            "repos_url": "https://api.github.com/users/jmarlena/repos",
+            "events_url": "https://api.github.com/users/jmarlena/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jmarlena/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "jmarlena",
+            "id": 6732600,
+            "node_id": "MDQ6VXNlcjY3MzI2MDA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6732600?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jmarlena",
+            "html_url": "https://github.com/jmarlena",
+            "followers_url": "https://api.github.com/users/jmarlena/followers",
+            "following_url": "https://api.github.com/users/jmarlena/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jmarlena/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jmarlena/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jmarlena/subscriptions",
+            "organizations_url": "https://api.github.com/users/jmarlena/orgs",
+            "repos_url": "https://api.github.com/users/jmarlena/repos",
+            "events_url": "https://api.github.com/users/jmarlena/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jmarlena/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "6e9828400139a9718d6bf41bcf8456bc0edb1921",
+                "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/commits/6e9828400139a9718d6bf41bcf8456bc0edb1921",
+                "html_url": "https://github.com/octocat/boysenberry-repo-1/commit/6e9828400139a9718d6bf41bcf8456bc0edb1921"
+            }
+        ]
+    },
+    {
+        "sha": "6e9828400139a9718d6bf41bcf8456bc0edb1921",
+        "node_id": "MDY6Q29tbWl0MTMyOTM1NjQ4OjZlOTgyODQwMDEzOWE5NzE4ZDZiZjQxYmNmODQ1NmJjMGVkYjE5MjE=",
+        "commit": {
+            "author": {
+                "name": "Jessica Canepa",
+                "email": "jmarlena@github.com",
+                "date": "2016-07-28T17:04:30Z"
+            },
+            "committer": {
+                "name": "Jessica Canepa",
+                "email": "jmarlena@github.com",
+                "date": "2016-07-28T17:04:30Z"
+            },
+            "message": "Initial commit",
+            "tree": {
+                "sha": "ba03001ac002b1ed8551bcd5c8892615447c6021",
+                "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/git/trees/ba03001ac002b1ed8551bcd5c8892615447c6021"
+            },
+            "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/git/commits/6e9828400139a9718d6bf41bcf8456bc0edb1921",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/commits/6e9828400139a9718d6bf41bcf8456bc0edb1921",
+        "html_url": "https://github.com/octocat/boysenberry-repo-1/commit/6e9828400139a9718d6bf41bcf8456bc0edb1921",
+        "comments_url": "https://api.github.com/repos/octocat/boysenberry-repo-1/commits/6e9828400139a9718d6bf41bcf8456bc0edb1921/comments",
+        "author": {
+            "login": "jmarlena",
+            "id": 6732600,
+            "node_id": "MDQ6VXNlcjY3MzI2MDA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6732600?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jmarlena",
+            "html_url": "https://github.com/jmarlena",
+            "followers_url": "https://api.github.com/users/jmarlena/followers",
+            "following_url": "https://api.github.com/users/jmarlena/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jmarlena/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jmarlena/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jmarlena/subscriptions",
+            "organizations_url": "https://api.github.com/users/jmarlena/orgs",
+            "repos_url": "https://api.github.com/users/jmarlena/repos",
+            "events_url": "https://api.github.com/users/jmarlena/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jmarlena/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "jmarlena",
+            "id": 6732600,
+            "node_id": "MDQ6VXNlcjY3MzI2MDA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6732600?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jmarlena",
+            "html_url": "https://github.com/jmarlena",
+            "followers_url": "https://api.github.com/users/jmarlena/followers",
+            "following_url": "https://api.github.com/users/jmarlena/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jmarlena/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jmarlena/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jmarlena/subscriptions",
+            "organizations_url": "https://api.github.com/users/jmarlena/orgs",
+            "repos_url": "https://api.github.com/users/jmarlena/repos",
+            "events_url": "https://api.github.com/users/jmarlena/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jmarlena/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            
+        ]
+    }
+]
+
+[2025-03-28 09:03:01] [1] [INFO] Request method:	GET
+Request URI:	https://api.github.com/repos/octocat/boysenberry-repo-1/commits
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 28 Mar 2025 09:02:59 GMT
+Content-Type: application/json; charset=utf-8
+Cache-Control: public, max-age=60, s-maxage=60
+Vary: Accept,Accept-Encoding, Accept, X-Requested-With
+ETag: W/"5a43322ef8876c3eeb0fb0f17066107e2879433b5781177a4a345ddea7affe96"
+Last-Modified: Mon, 12 Dec 2016 23:11:00 GMT
+X-GitHub-Media-Type: github.v3; format=json
+x-github-api-version-selected: 2022-11-28
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Content-Encoding: gzip
+Server: github.com
+Accept-Ranges: bytes
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 46
+X-RateLimit-Reset: 1743154348
+X-RateLimit-Resource: core
+X-RateLimit-Used: 14
+Content-Length: 1460
+X-GitHub-Request-Id: 1784:386C69:40C8765:42DBAC1:67E665C5
+
+[
+    {
+        "sha": "d09e445076bbcd163fc9abfbe6d2fce09a611281",
+        "node_id": "MDY6Q29tbWl0MTMyOTM1NjQ4OmQwOWU0NDUwNzZiYmNkMTYzZmM5YWJmYmU2ZDJmY2UwOWE2MTEyODE=",
+        "commit": {
+            "author": {
+                "name": "Jessica Canepa",
+                "email": "jmarlena@github.com",
+                "date": "2016-12-12T23:11:00Z"
+            },
+            "committer": {
+                "name": "Jessica Canepa",
+                "email": "jmarlena@github.com",
+                "date": "2016-12-12T23:11:00Z"
+            },
+            "message": "Set theme: \"jekyll-theme-minimal\" in _config.yml.",
+            "tree": {
+                "sha": "ee2aaf688abf707aa38318b7408ba23001547b10",
+                "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/git/trees/ee2aaf688abf707aa38318b7408ba23001547b10"
+            },
+            "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/git/commits/d09e445076bbcd163fc9abfbe6d2fce09a611281",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/commits/d09e445076bbcd163fc9abfbe6d2fce09a611281",
+        "html_url": "https://github.com/octocat/boysenberry-repo-1/commit/d09e445076bbcd163fc9abfbe6d2fce09a611281",
+        "comments_url": "https://api.github.com/repos/octocat/boysenberry-repo-1/commits/d09e445076bbcd163fc9abfbe6d2fce09a611281/comments",
+        "author": {
+            "login": "jmarlena",
+            "id": 6732600,
+            "node_id": "MDQ6VXNlcjY3MzI2MDA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6732600?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jmarlena",
+            "html_url": "https://github.com/jmarlena",
+            "followers_url": "https://api.github.com/users/jmarlena/followers",
+            "following_url": "https://api.github.com/users/jmarlena/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jmarlena/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jmarlena/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jmarlena/subscriptions",
+            "organizations_url": "https://api.github.com/users/jmarlena/orgs",
+            "repos_url": "https://api.github.com/users/jmarlena/repos",
+            "events_url": "https://api.github.com/users/jmarlena/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jmarlena/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "jmarlena",
+            "id": 6732600,
+            "node_id": "MDQ6VXNlcjY3MzI2MDA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6732600?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jmarlena",
+            "html_url": "https://github.com/jmarlena",
+            "followers_url": "https://api.github.com/users/jmarlena/followers",
+            "following_url": "https://api.github.com/users/jmarlena/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jmarlena/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jmarlena/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jmarlena/subscriptions",
+            "organizations_url": "https://api.github.com/users/jmarlena/orgs",
+            "repos_url": "https://api.github.com/users/jmarlena/repos",
+            "events_url": "https://api.github.com/users/jmarlena/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jmarlena/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "642f3f60f5989713b472447912fcfdcb74b0bd1a",
+                "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/commits/642f3f60f5989713b472447912fcfdcb74b0bd1a",
+                "html_url": "https://github.com/octocat/boysenberry-repo-1/commit/642f3f60f5989713b472447912fcfdcb74b0bd1a"
+            }
+        ]
+    },
+    {
+        "sha": "642f3f60f5989713b472447912fcfdcb74b0bd1a",
+        "node_id": "MDY6Q29tbWl0MTMyOTM1NjQ4OjY0MmYzZjYwZjU5ODk3MTNiNDcyNDQ3OTEyZmNmZGNiNzRiMGJkMWE=",
+        "commit": {
+            "author": {
+                "name": "Jessica Canepa",
+                "email": "jmarlena@github.com",
+                "date": "2016-12-12T23:06:48Z"
+            },
+            "committer": {
+                "name": "Jessica Canepa",
+                "email": "jmarlena@github.com",
+                "date": "2016-12-12T23:06:48Z"
+            },
+            "message": "Create Jekyll site.",
+            "tree": {
+                "sha": "ee2aaf688abf707aa38318b7408ba23001547b10",
+                "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/git/trees/ee2aaf688abf707aa38318b7408ba23001547b10"
+            },
+            "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/git/commits/642f3f60f5989713b472447912fcfdcb74b0bd1a",
+            "comment_count": 2,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/commits/642f3f60f5989713b472447912fcfdcb74b0bd1a",
+        "html_url": "https://github.com/octocat/boysenberry-repo-1/commit/642f3f60f5989713b472447912fcfdcb74b0bd1a",
+        "comments_url": "https://api.github.com/repos/octocat/boysenberry-repo-1/commits/642f3f60f5989713b472447912fcfdcb74b0bd1a/comments",
+        "author": {
+            "login": "jmarlena",
+            "id": 6732600,
+            "node_id": "MDQ6VXNlcjY3MzI2MDA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6732600?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jmarlena",
+            "html_url": "https://github.com/jmarlena",
+            "followers_url": "https://api.github.com/users/jmarlena/followers",
+            "following_url": "https://api.github.com/users/jmarlena/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jmarlena/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jmarlena/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jmarlena/subscriptions",
+            "organizations_url": "https://api.github.com/users/jmarlena/orgs",
+            "repos_url": "https://api.github.com/users/jmarlena/repos",
+            "events_url": "https://api.github.com/users/jmarlena/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jmarlena/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "jmarlena",
+            "id": 6732600,
+            "node_id": "MDQ6VXNlcjY3MzI2MDA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6732600?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jmarlena",
+            "html_url": "https://github.com/jmarlena",
+            "followers_url": "https://api.github.com/users/jmarlena/followers",
+            "following_url": "https://api.github.com/users/jmarlena/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jmarlena/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jmarlena/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jmarlena/subscriptions",
+            "organizations_url": "https://api.github.com/users/jmarlena/orgs",
+            "repos_url": "https://api.github.com/users/jmarlena/repos",
+            "events_url": "https://api.github.com/users/jmarlena/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jmarlena/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "cc319a502ddb791661067a22fd47ada75073865d",
+                "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/commits/cc319a502ddb791661067a22fd47ada75073865d",
+                "html_url": "https://github.com/octocat/boysenberry-repo-1/commit/cc319a502ddb791661067a22fd47ada75073865d"
+            }
+        ]
+    },
+    {
+        "sha": "cc319a502ddb791661067a22fd47ada75073865d",
+        "node_id": "MDY6Q29tbWl0MTMyOTM1NjQ4OmNjMzE5YTUwMmRkYjc5MTY2MTA2N2EyMmZkNDdhZGE3NTA3Mzg2NWQ=",
+        "commit": {
+            "author": {
+                "name": "jmarlena",
+                "email": "jmarlena@github.com",
+                "date": "2016-08-17T04:52:16Z"
+            },
+            "committer": {
+                "name": "jmarlena",
+                "email": "jmarlena@github.com",
+                "date": "2016-08-17T04:52:16Z"
+            },
+            "message": "add new version of readme",
+            "tree": {
+                "sha": "f1c819a408383c053566219db2d167456b95d6bf",
+                "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/git/trees/f1c819a408383c053566219db2d167456b95d6bf"
+            },
+            "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/git/commits/cc319a502ddb791661067a22fd47ada75073865d",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/commits/cc319a502ddb791661067a22fd47ada75073865d",
+        "html_url": "https://github.com/octocat/boysenberry-repo-1/commit/cc319a502ddb791661067a22fd47ada75073865d",
+        "comments_url": "https://api.github.com/repos/octocat/boysenberry-repo-1/commits/cc319a502ddb791661067a22fd47ada75073865d/comments",
+        "author": {
+            "login": "jmarlena",
+            "id": 6732600,
+            "node_id": "MDQ6VXNlcjY3MzI2MDA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6732600?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jmarlena",
+            "html_url": "https://github.com/jmarlena",
+            "followers_url": "https://api.github.com/users/jmarlena/followers",
+            "following_url": "https://api.github.com/users/jmarlena/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jmarlena/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jmarlena/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jmarlena/subscriptions",
+            "organizations_url": "https://api.github.com/users/jmarlena/orgs",
+            "repos_url": "https://api.github.com/users/jmarlena/repos",
+            "events_url": "https://api.github.com/users/jmarlena/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jmarlena/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "jmarlena",
+            "id": 6732600,
+            "node_id": "MDQ6VXNlcjY3MzI2MDA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6732600?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jmarlena",
+            "html_url": "https://github.com/jmarlena",
+            "followers_url": "https://api.github.com/users/jmarlena/followers",
+            "following_url": "https://api.github.com/users/jmarlena/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jmarlena/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jmarlena/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jmarlena/subscriptions",
+            "organizations_url": "https://api.github.com/users/jmarlena/orgs",
+            "repos_url": "https://api.github.com/users/jmarlena/repos",
+            "events_url": "https://api.github.com/users/jmarlena/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jmarlena/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "6e9828400139a9718d6bf41bcf8456bc0edb1921",
+                "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/commits/6e9828400139a9718d6bf41bcf8456bc0edb1921",
+                "html_url": "https://github.com/octocat/boysenberry-repo-1/commit/6e9828400139a9718d6bf41bcf8456bc0edb1921"
+            }
+        ]
+    },
+    {
+        "sha": "6e9828400139a9718d6bf41bcf8456bc0edb1921",
+        "node_id": "MDY6Q29tbWl0MTMyOTM1NjQ4OjZlOTgyODQwMDEzOWE5NzE4ZDZiZjQxYmNmODQ1NmJjMGVkYjE5MjE=",
+        "commit": {
+            "author": {
+                "name": "Jessica Canepa",
+                "email": "jmarlena@github.com",
+                "date": "2016-07-28T17:04:30Z"
+            },
+            "committer": {
+                "name": "Jessica Canepa",
+                "email": "jmarlena@github.com",
+                "date": "2016-07-28T17:04:30Z"
+            },
+            "message": "Initial commit",
+            "tree": {
+                "sha": "ba03001ac002b1ed8551bcd5c8892615447c6021",
+                "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/git/trees/ba03001ac002b1ed8551bcd5c8892615447c6021"
+            },
+            "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/git/commits/6e9828400139a9718d6bf41bcf8456bc0edb1921",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/commits/6e9828400139a9718d6bf41bcf8456bc0edb1921",
+        "html_url": "https://github.com/octocat/boysenberry-repo-1/commit/6e9828400139a9718d6bf41bcf8456bc0edb1921",
+        "comments_url": "https://api.github.com/repos/octocat/boysenberry-repo-1/commits/6e9828400139a9718d6bf41bcf8456bc0edb1921/comments",
+        "author": {
+            "login": "jmarlena",
+            "id": 6732600,
+            "node_id": "MDQ6VXNlcjY3MzI2MDA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6732600?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jmarlena",
+            "html_url": "https://github.com/jmarlena",
+            "followers_url": "https://api.github.com/users/jmarlena/followers",
+            "following_url": "https://api.github.com/users/jmarlena/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jmarlena/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jmarlena/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jmarlena/subscriptions",
+            "organizations_url": "https://api.github.com/users/jmarlena/orgs",
+            "repos_url": "https://api.github.com/users/jmarlena/repos",
+            "events_url": "https://api.github.com/users/jmarlena/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jmarlena/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "jmarlena",
+            "id": 6732600,
+            "node_id": "MDQ6VXNlcjY3MzI2MDA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6732600?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jmarlena",
+            "html_url": "https://github.com/jmarlena",
+            "followers_url": "https://api.github.com/users/jmarlena/followers",
+            "following_url": "https://api.github.com/users/jmarlena/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jmarlena/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jmarlena/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jmarlena/subscriptions",
+            "organizations_url": "https://api.github.com/users/jmarlena/orgs",
+            "repos_url": "https://api.github.com/users/jmarlena/repos",
+            "events_url": "https://api.github.com/users/jmarlena/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jmarlena/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            
+        ]
+    }
+]
+
+[2025-03-28 09:03:03] [1] [INFO] Request method:	GET
+Request URI:	https://api.github.com/repos/octocat/boysenberry-repo-1/commits
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 28 Mar 2025 09:02:59 GMT
+Content-Type: application/json; charset=utf-8
+Cache-Control: public, max-age=60, s-maxage=60
+Vary: Accept,Accept-Encoding, Accept, X-Requested-With
+ETag: W/"5a43322ef8876c3eeb0fb0f17066107e2879433b5781177a4a345ddea7affe96"
+Last-Modified: Mon, 12 Dec 2016 23:11:00 GMT
+X-GitHub-Media-Type: github.v3; format=json
+x-github-api-version-selected: 2022-11-28
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Content-Encoding: gzip
+Server: github.com
+Accept-Ranges: bytes
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 45
+X-RateLimit-Reset: 1743154348
+X-RateLimit-Resource: core
+X-RateLimit-Used: 15
+Content-Length: 1460
+X-GitHub-Request-Id: 1786:22B4D2:6AEB21B:6E584F7:67E665C7
+
+[
+    {
+        "sha": "d09e445076bbcd163fc9abfbe6d2fce09a611281",
+        "node_id": "MDY6Q29tbWl0MTMyOTM1NjQ4OmQwOWU0NDUwNzZiYmNkMTYzZmM5YWJmYmU2ZDJmY2UwOWE2MTEyODE=",
+        "commit": {
+            "author": {
+                "name": "Jessica Canepa",
+                "email": "jmarlena@github.com",
+                "date": "2016-12-12T23:11:00Z"
+            },
+            "committer": {
+                "name": "Jessica Canepa",
+                "email": "jmarlena@github.com",
+                "date": "2016-12-12T23:11:00Z"
+            },
+            "message": "Set theme: \"jekyll-theme-minimal\" in _config.yml.",
+            "tree": {
+                "sha": "ee2aaf688abf707aa38318b7408ba23001547b10",
+                "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/git/trees/ee2aaf688abf707aa38318b7408ba23001547b10"
+            },
+            "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/git/commits/d09e445076bbcd163fc9abfbe6d2fce09a611281",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/commits/d09e445076bbcd163fc9abfbe6d2fce09a611281",
+        "html_url": "https://github.com/octocat/boysenberry-repo-1/commit/d09e445076bbcd163fc9abfbe6d2fce09a611281",
+        "comments_url": "https://api.github.com/repos/octocat/boysenberry-repo-1/commits/d09e445076bbcd163fc9abfbe6d2fce09a611281/comments",
+        "author": {
+            "login": "jmarlena",
+            "id": 6732600,
+            "node_id": "MDQ6VXNlcjY3MzI2MDA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6732600?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jmarlena",
+            "html_url": "https://github.com/jmarlena",
+            "followers_url": "https://api.github.com/users/jmarlena/followers",
+            "following_url": "https://api.github.com/users/jmarlena/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jmarlena/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jmarlena/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jmarlena/subscriptions",
+            "organizations_url": "https://api.github.com/users/jmarlena/orgs",
+            "repos_url": "https://api.github.com/users/jmarlena/repos",
+            "events_url": "https://api.github.com/users/jmarlena/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jmarlena/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "jmarlena",
+            "id": 6732600,
+            "node_id": "MDQ6VXNlcjY3MzI2MDA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6732600?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jmarlena",
+            "html_url": "https://github.com/jmarlena",
+            "followers_url": "https://api.github.com/users/jmarlena/followers",
+            "following_url": "https://api.github.com/users/jmarlena/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jmarlena/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jmarlena/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jmarlena/subscriptions",
+            "organizations_url": "https://api.github.com/users/jmarlena/orgs",
+            "repos_url": "https://api.github.com/users/jmarlena/repos",
+            "events_url": "https://api.github.com/users/jmarlena/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jmarlena/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "642f3f60f5989713b472447912fcfdcb74b0bd1a",
+                "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/commits/642f3f60f5989713b472447912fcfdcb74b0bd1a",
+                "html_url": "https://github.com/octocat/boysenberry-repo-1/commit/642f3f60f5989713b472447912fcfdcb74b0bd1a"
+            }
+        ]
+    },
+    {
+        "sha": "642f3f60f5989713b472447912fcfdcb74b0bd1a",
+        "node_id": "MDY6Q29tbWl0MTMyOTM1NjQ4OjY0MmYzZjYwZjU5ODk3MTNiNDcyNDQ3OTEyZmNmZGNiNzRiMGJkMWE=",
+        "commit": {
+            "author": {
+                "name": "Jessica Canepa",
+                "email": "jmarlena@github.com",
+                "date": "2016-12-12T23:06:48Z"
+            },
+            "committer": {
+                "name": "Jessica Canepa",
+                "email": "jmarlena@github.com",
+                "date": "2016-12-12T23:06:48Z"
+            },
+            "message": "Create Jekyll site.",
+            "tree": {
+                "sha": "ee2aaf688abf707aa38318b7408ba23001547b10",
+                "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/git/trees/ee2aaf688abf707aa38318b7408ba23001547b10"
+            },
+            "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/git/commits/642f3f60f5989713b472447912fcfdcb74b0bd1a",
+            "comment_count": 2,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/commits/642f3f60f5989713b472447912fcfdcb74b0bd1a",
+        "html_url": "https://github.com/octocat/boysenberry-repo-1/commit/642f3f60f5989713b472447912fcfdcb74b0bd1a",
+        "comments_url": "https://api.github.com/repos/octocat/boysenberry-repo-1/commits/642f3f60f5989713b472447912fcfdcb74b0bd1a/comments",
+        "author": {
+            "login": "jmarlena",
+            "id": 6732600,
+            "node_id": "MDQ6VXNlcjY3MzI2MDA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6732600?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jmarlena",
+            "html_url": "https://github.com/jmarlena",
+            "followers_url": "https://api.github.com/users/jmarlena/followers",
+            "following_url": "https://api.github.com/users/jmarlena/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jmarlena/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jmarlena/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jmarlena/subscriptions",
+            "organizations_url": "https://api.github.com/users/jmarlena/orgs",
+            "repos_url": "https://api.github.com/users/jmarlena/repos",
+            "events_url": "https://api.github.com/users/jmarlena/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jmarlena/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "jmarlena",
+            "id": 6732600,
+            "node_id": "MDQ6VXNlcjY3MzI2MDA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6732600?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jmarlena",
+            "html_url": "https://github.com/jmarlena",
+            "followers_url": "https://api.github.com/users/jmarlena/followers",
+            "following_url": "https://api.github.com/users/jmarlena/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jmarlena/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jmarlena/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jmarlena/subscriptions",
+            "organizations_url": "https://api.github.com/users/jmarlena/orgs",
+            "repos_url": "https://api.github.com/users/jmarlena/repos",
+            "events_url": "https://api.github.com/users/jmarlena/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jmarlena/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "cc319a502ddb791661067a22fd47ada75073865d",
+                "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/commits/cc319a502ddb791661067a22fd47ada75073865d",
+                "html_url": "https://github.com/octocat/boysenberry-repo-1/commit/cc319a502ddb791661067a22fd47ada75073865d"
+            }
+        ]
+    },
+    {
+        "sha": "cc319a502ddb791661067a22fd47ada75073865d",
+        "node_id": "MDY6Q29tbWl0MTMyOTM1NjQ4OmNjMzE5YTUwMmRkYjc5MTY2MTA2N2EyMmZkNDdhZGE3NTA3Mzg2NWQ=",
+        "commit": {
+            "author": {
+                "name": "jmarlena",
+                "email": "jmarlena@github.com",
+                "date": "2016-08-17T04:52:16Z"
+            },
+            "committer": {
+                "name": "jmarlena",
+                "email": "jmarlena@github.com",
+                "date": "2016-08-17T04:52:16Z"
+            },
+            "message": "add new version of readme",
+            "tree": {
+                "sha": "f1c819a408383c053566219db2d167456b95d6bf",
+                "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/git/trees/f1c819a408383c053566219db2d167456b95d6bf"
+            },
+            "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/git/commits/cc319a502ddb791661067a22fd47ada75073865d",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/commits/cc319a502ddb791661067a22fd47ada75073865d",
+        "html_url": "https://github.com/octocat/boysenberry-repo-1/commit/cc319a502ddb791661067a22fd47ada75073865d",
+        "comments_url": "https://api.github.com/repos/octocat/boysenberry-repo-1/commits/cc319a502ddb791661067a22fd47ada75073865d/comments",
+        "author": {
+            "login": "jmarlena",
+            "id": 6732600,
+            "node_id": "MDQ6VXNlcjY3MzI2MDA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6732600?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jmarlena",
+            "html_url": "https://github.com/jmarlena",
+            "followers_url": "https://api.github.com/users/jmarlena/followers",
+            "following_url": "https://api.github.com/users/jmarlena/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jmarlena/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jmarlena/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jmarlena/subscriptions",
+            "organizations_url": "https://api.github.com/users/jmarlena/orgs",
+            "repos_url": "https://api.github.com/users/jmarlena/repos",
+            "events_url": "https://api.github.com/users/jmarlena/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jmarlena/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "jmarlena",
+            "id": 6732600,
+            "node_id": "MDQ6VXNlcjY3MzI2MDA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6732600?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jmarlena",
+            "html_url": "https://github.com/jmarlena",
+            "followers_url": "https://api.github.com/users/jmarlena/followers",
+            "following_url": "https://api.github.com/users/jmarlena/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jmarlena/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jmarlena/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jmarlena/subscriptions",
+            "organizations_url": "https://api.github.com/users/jmarlena/orgs",
+            "repos_url": "https://api.github.com/users/jmarlena/repos",
+            "events_url": "https://api.github.com/users/jmarlena/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jmarlena/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "6e9828400139a9718d6bf41bcf8456bc0edb1921",
+                "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/commits/6e9828400139a9718d6bf41bcf8456bc0edb1921",
+                "html_url": "https://github.com/octocat/boysenberry-repo-1/commit/6e9828400139a9718d6bf41bcf8456bc0edb1921"
+            }
+        ]
+    },
+    {
+        "sha": "6e9828400139a9718d6bf41bcf8456bc0edb1921",
+        "node_id": "MDY6Q29tbWl0MTMyOTM1NjQ4OjZlOTgyODQwMDEzOWE5NzE4ZDZiZjQxYmNmODQ1NmJjMGVkYjE5MjE=",
+        "commit": {
+            "author": {
+                "name": "Jessica Canepa",
+                "email": "jmarlena@github.com",
+                "date": "2016-07-28T17:04:30Z"
+            },
+            "committer": {
+                "name": "Jessica Canepa",
+                "email": "jmarlena@github.com",
+                "date": "2016-07-28T17:04:30Z"
+            },
+            "message": "Initial commit",
+            "tree": {
+                "sha": "ba03001ac002b1ed8551bcd5c8892615447c6021",
+                "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/git/trees/ba03001ac002b1ed8551bcd5c8892615447c6021"
+            },
+            "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/git/commits/6e9828400139a9718d6bf41bcf8456bc0edb1921",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/octocat/boysenberry-repo-1/commits/6e9828400139a9718d6bf41bcf8456bc0edb1921",
+        "html_url": "https://github.com/octocat/boysenberry-repo-1/commit/6e9828400139a9718d6bf41bcf8456bc0edb1921",
+        "comments_url": "https://api.github.com/repos/octocat/boysenberry-repo-1/commits/6e9828400139a9718d6bf41bcf8456bc0edb1921/comments",
+        "author": {
+            "login": "jmarlena",
+            "id": 6732600,
+            "node_id": "MDQ6VXNlcjY3MzI2MDA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6732600?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jmarlena",
+            "html_url": "https://github.com/jmarlena",
+            "followers_url": "https://api.github.com/users/jmarlena/followers",
+            "following_url": "https://api.github.com/users/jmarlena/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jmarlena/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jmarlena/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jmarlena/subscriptions",
+            "organizations_url": "https://api.github.com/users/jmarlena/orgs",
+            "repos_url": "https://api.github.com/users/jmarlena/repos",
+            "events_url": "https://api.github.com/users/jmarlena/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jmarlena/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "jmarlena",
+            "id": 6732600,
+            "node_id": "MDQ6VXNlcjY3MzI2MDA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6732600?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jmarlena",
+            "html_url": "https://github.com/jmarlena",
+            "followers_url": "https://api.github.com/users/jmarlena/followers",
+            "following_url": "https://api.github.com/users/jmarlena/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jmarlena/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jmarlena/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jmarlena/subscriptions",
+            "organizations_url": "https://api.github.com/users/jmarlena/orgs",
+            "repos_url": "https://api.github.com/users/jmarlena/repos",
+            "events_url": "https://api.github.com/users/jmarlena/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jmarlena/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            
+        ]
+    }
+]
+
+[2025-03-28 09:03:03] [1] [INFO] TEST [TestV2 - testGetRepositoryCommitsWithRetry] PASSED at [10:03:03 2025-03-28]
